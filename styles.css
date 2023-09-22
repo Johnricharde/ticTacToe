@@ -1,0 +1,19 @@
+body {
+    user-select: none;
+}
+
+.grid {
+    text-align: center;
+    font-size: 85px;
+    width: 0px;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid > div {
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    outline: solid black 1px;
+}
